@@ -1,0 +1,77 @@
+/* burgermenu */
+
+.toggle-btn {
+  display: none;
+  font-family: akira expanded, sans-serif;
+  color: #000;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+/* computer sized */
+
+header {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  padding: 0rem 1.5rem;
+}
+
+.menu_color {
+  background-color: white;
+}
+.engedalbothe {
+  font-size: 150%;
+  margin-top: -1%;
+  font-family: "akira expanded", sans-serif;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0vw;
+  padding: 2vw;
+  overflow-x: auto;
+  gap: 9vw;
+}
+
+.menu li a {
+  font-family: "futura-pt", sans-serif;
+  font-size: 120%;
+  text-decoration: none;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
