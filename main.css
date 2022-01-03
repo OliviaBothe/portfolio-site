@@ -6,6 +6,10 @@
   color: #000;
 }
 
+.toggle-btn:hover {
+  color: #fc43be;
+}
+
 @media (max-width: 800px) {
   .toggle-btn {
     background: transparent;

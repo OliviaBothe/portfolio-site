@@ -6,6 +6,50 @@
 }
 /**/
 
+/* mobile */
 img {
   width: 100%;
+}
+
+h2 {
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 2rem;
+  color: #fc43be;
+  line-height: 1.125;
+  margin-bottom: 10px;
+}
+
+.splashfoto {
+  display: grid;
+  place-items: center;
+}
+
+img,
+h2 {
+  grid-area: 1 / 1;
+}
+
+/* desktop */
+@media (min-width: 800px) {
+  img {
+    width: 100%;
+  }
+
+  h2 {
+    font-family: "Akira Expanded", sans-serif;
+    font-size: 5rem;
+    color: #fc43be;
+    line-height: 1.125;
+    margin-bottom: 10px;
+  }
+
+  .splashfoto {
+    display: grid;
+    place-items: center;
+  }
+
+  img,
+  h2 {
+    grid-area: 1 / 1;
+  }
 }
