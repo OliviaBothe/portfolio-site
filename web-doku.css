@@ -8,25 +8,53 @@ h2 {
   font-size: 1.45rem;
   color: #fc43be;
   line-height: 1.125;
-  margin-bottom: 9px;
-  padding: 15px;
+  margin-bottom: 45px;
+  margin-top: 25px;
+  padding-left: 78px;
+}
+
+#second_section h2 {
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 1.45rem;
+  color: #fc43be;
+  line-height: 1.125;
+  margin-bottom: 45px;
+  margin-top: 49px;
+  padding-left: 55px;
 }
 
 /* desktop */
 @media (min-width: 800px) {
-    img {
-      width: 47%;
-      object-fit: cover;
-      margin-left: 28px;
-      
-    }
-  
-    h2 {
-      font-family: "Akira Expanded", sans-serif;
-      font-size: 2.2rem;
-      color: #fc43be;
-      line-height: 1.125;
-      margin-bottom: 20px;
-      margin-top: 20px;
-      padding-left: 300px;
-    }
+  img {
+    width: 47%;
+    object-fit: cover;
+    margin-left: 28px;
+  }
+
+  h2 {
+    font-family: "Akira Expanded", sans-serif;
+    font-size: 2.2rem;
+    color: #fc43be;
+    line-height: 1.125;
+    margin-bottom: 85px;
+    margin-top: 30px;
+    padding-left: 525px;
+  }
+
+  #second_section h2 {
+    font-family: "Akira Expanded", sans-serif;
+    font-size: 2.2rem;
+    color: #fc43be;
+    line-height: 1.125;
+    margin-bottom: 85px;
+    margin-top: 90px;
+    padding-left: 490px;
+  }
+
+  #second_section img {
+    width: 47%;
+    object-fit: cover;
+    margin-left: 28px;
+    margin-bottom: 20px;
+  }
+}
