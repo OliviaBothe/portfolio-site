@@ -30,4 +30,8 @@ h2 {
     margin-top: 30px;
     padding-left: 600px;
   }
+
+  #first_section img {
+    margin-bottom: 20px;
+  }
 }
