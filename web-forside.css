@@ -1,0 +1,58 @@
+/* mobile */
+img {
+  width: 100%;
+}
+
+h2 {
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 1.45rem;
+  color: #fc43be;
+  line-height: 1.125;
+  margin-bottom: 9px;
+  padding: 15px;
+}
+
+p {
+  font-family: "libre franklin", sans-serif;
+  font-size: 1.2rem;
+  color: #fc43be;
+  margin: 10px;
+}
+
+/* desktop */
+@media (min-width: 800px) {
+  img {
+    width: 50%;
+    object-fit: cover;
+  }
+
+  h2 {
+    font-family: "Akira Expanded", sans-serif;
+    font-size: 2.2rem;
+    color: #fc43be;
+    line-height: 1.125;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 415px;
+  }
+
+  p {
+    font-family: "libre franklin", sans-serif;
+    font-size: 1.5rem;
+    color: #fc43be;
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+
+  #first_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
