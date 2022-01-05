@@ -37,6 +37,16 @@ h2 {
   padding-left: 40px;
 }
 
+#fourth_section h2 {
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 1.4rem;
+  color: #fc43be;
+  line-height: 1.125;
+  margin-bottom: 45px;
+  margin-top: 52px;
+  padding-left: 20px;
+}
+
 /* desktop */
 @media (min-width: 800px) {
   img {
@@ -78,5 +88,20 @@ h2 {
   #third_section img {
     width: 90%;
     padding-left: 45px;
+  }
+
+  #fourth_section h2 {
+    font-family: "Akira Expanded", sans-serif;
+    font-size: 2.2rem;
+    color: #fc43be;
+    line-height: 1.125;
+    margin-bottom: 85px;
+    margin-top: 90px;
+    padding-left: 420px;
+  }
+
+  #fourth_section img {
+    width: 22.5%;
+    margin-bottom: 20px;
   }
 }
