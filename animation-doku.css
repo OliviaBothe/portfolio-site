@@ -28,8 +28,32 @@ h2 {
   margin-bottom: 10px;
 }
 
+#fourth_section img {
+  margin-bottom: 10px;
+}
+
+#third_section h2 {
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 1.45rem;
+  color: #fc43be;
+  line-height: 1.125;
+  margin-bottom: 45px;
+  margin-top: 49px;
+  padding-left: 110px;
+}
+
 #third_section img {
   margin-bottom: 10px;
+}
+
+#fourth_section h2 {
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 1.45rem;
+  color: #fc43be;
+  line-height: 1.125;
+  margin-bottom: 45px;
+  margin-top: 49px;
+  padding-left: 65px;
 }
 
 /* desktop */
@@ -82,5 +106,23 @@ h2 {
   #third_section .prototype3 {
     width: 100%;
     padding-left: 340px;
+  }
+
+  #third_section img {
+    margin-bottom: 20px;
+  }
+
+  #fourth_section h2 {
+    font-family: "Akira Expanded", sans-serif;
+    font-size: 2.2rem;
+    color: #fc43be;
+    line-height: 1.125;
+    margin-bottom: 85px;
+    margin-top: 90px;
+    padding-left: 475px;
+  }
+
+  #fourth_section img {
+    margin-bottom: 20px;
   }
 }
