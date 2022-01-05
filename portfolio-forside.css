@@ -1,0 +1,74 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+}
+
+main section {
+  grid-column: 2/3;
+}
+
+/* mobile */
+img {
+  width: 100%;
+}
+
+h2 {
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 1.45rem;
+  color: #fc43be;
+  line-height: 1.125;
+  margin-bottom: 9px;
+  padding: 40px;
+}
+
+p {
+  font-family: "libre franklin", sans-serif;
+  font-size: 1.2rem;
+  color: #fc43be;
+  margin: 10px;
+}
+
+/* desktop */
+@media (min-width: 800px) {
+  img {
+    width: 60%;
+    object-fit: cover;
+    margin-top: -3rem;
+    padding-left: 170px;
+    grid-column: 1/2;
+  }
+
+  h2 {
+    font-family: "Akira Expanded", sans-serif;
+    font-size: 2.2rem;
+    color: #fc43be;
+    line-height: 1.125;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 300px;
+  }
+
+  p {
+    font-family: "libre franklin", sans-serif;
+    font-size: 1.1rem;
+    color: #fc43be;
+    margin: 0.5rem;
+    margin-top: 45px;
+    padding: 1rem;
+    padding-right: 140px;
+    grid-column: 2/2;
+  }
+
+  #first_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 7%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
