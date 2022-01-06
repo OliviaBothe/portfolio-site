@@ -23,8 +23,9 @@ h2 {
 
 p {
   font-family: "libre franklin", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #fc43be;
+  line-height: 1.5;
   margin: 10px;
 }
 
@@ -50,8 +51,9 @@ p {
 
   p {
     font-family: "libre franklin", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #fc43be;
+    line-height: 1.5;
     margin: 0.5rem;
     margin-top: 45px;
     padding: 1rem;
