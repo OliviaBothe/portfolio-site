@@ -33,6 +33,14 @@ h2 {
   padding-left: 80px;
 }
 
+#third_section img {
+  margin-bottom: 10px;
+}
+
+#fourth_section img {
+  margin-bottom: 10px;
+}
+
 /* desktop */
 @media (min-width: 800px) {
   h2 {
@@ -81,5 +89,23 @@ h2 {
   #third_section .scrum3 {
     width: 100%;
     padding-left: 345px;
+  }
+
+  #fourth_section h2 {
+    margin-bottom: 85px;
+    margin-top: 90px;
+    padding-left: 520px;
+  }
+
+  #fourth_section img {
+    width: 30%;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    gap: 20px;
+  }
+
+  #fourth_section .sidste {
+    width: 100%;
+    padding-left: 225px;
   }
 }
