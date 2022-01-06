@@ -1,0 +1,85 @@
+/* mobile */
+img {
+  width: 100%;
+}
+
+h2 {
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 1.45rem;
+  color: #fc43be;
+  line-height: 1.125;
+  margin-bottom: 45px;
+  margin-top: 25px;
+  padding-left: 90px;
+}
+
+#first_section img {
+  margin-bottom: 10px;
+}
+
+#second_section h2 {
+  margin-bottom: 45px;
+  margin-top: 49px;
+  padding-left: 55px;
+}
+
+#second_section img {
+  margin-bottom: 10px;
+}
+
+#third_section h2 {
+  margin-bottom: 45px;
+  margin-top: 49px;
+  padding-left: 80px;
+}
+
+/* desktop */
+@media (min-width: 800px) {
+  h2 {
+    font-family: "Akira Expanded", sans-serif;
+    font-size: 2.2rem;
+    color: #fc43be;
+    line-height: 1.125;
+    margin-bottom: 85px;
+    margin-top: 30px;
+    padding-left: 360px;
+  }
+
+  #first_section img {
+    width: 46.5%;
+    margin-bottom: 35px;
+    padding-left: 40px;
+    gap: 20px;
+  }
+
+  #second_section h2 {
+    margin-bottom: 85px;
+    margin-top: 90px;
+    padding-left: 470px;
+  }
+
+  #second_section img {
+    width: 46.5%;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    gap: 20px;
+  }
+
+  #third_section h2 {
+    margin-bottom: 85px;
+    margin-top: 90px;
+    padding-left: 520px;
+  }
+
+  #third_section img {
+    width: 46.5%;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    gap: 20px;
+  }
+
+  #third_section .scrum3 {
+    width: 100%;
+    padding-left: 345px;
+  }
+}
