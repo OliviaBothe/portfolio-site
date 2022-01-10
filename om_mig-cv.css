@@ -1,21 +1,49 @@
-main {
-  display: grid;
-  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
-}
-
-main section {
-  grid-column: 2/3;
-}
-
 /* mobile */
 h2 {
   font-family: "Akira Expanded", sans-serif;
   font-size: 1.45rem;
   color: #fc43be;
   line-height: 1.125;
-  margin-bottom: 45px;
+  margin-bottom: 56px;
   margin-top: 25px;
-  padding-left: 193px;
+  padding-left: 165px;
+}
+
+#first_section h3 {
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 1.2rem;
+  color: #fc43be;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  padding-left: 155px;
+}
+
+#second_section h3 {
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 1.2rem;
+  color: #fc43be;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  padding-left: 169px;
+}
+
+#third_section h3 {
+  font-family: "Akira Expanded", sans-serif;
+  font-size: 1.2rem;
+  color: #fc43be;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  padding-left: 123px;
+}
+
+ul {
+  font-family: libre franklin, sans-serif;
+  font-size: 1rem;
+  line-height: 2;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-left: 10px;
 }
 
 /* desktop */
@@ -27,17 +55,44 @@ h2 {
     line-height: 1.125;
     margin-bottom: 85px;
     margin-top: 30px;
-    padding-left: 680px;
+    padding-left: 635px;
   }
 
-  p {
-    font-family: "libre franklin", sans-serif;
-    font-size: 1rem;
-    line-height: 1.5;
-    margin: 0.5rem;
-    margin-top: 45px;
-    padding: 1rem;
-    padding-right: 140px;
-    grid-column: 2/2;
+  #first_section h3 {
+    font-family: "Akira Expanded", sans-serif;
+    font-size: 1.5rem;
+    color: #fc43be;
+    line-height: 1.125;
+    margin-bottom: 36px;
+    margin-top: 30px;
+    padding-left: 638px;
+  }
+
+  #second_section h3 {
+    font-family: "Akira Expanded", sans-serif;
+    font-size: 1.5rem;
+    color: #fc43be;
+    line-height: 1.125;
+    margin-bottom: 36px;
+    margin-top: 30px;
+    padding-left: 666px;
+  }
+
+  #third_section h3 {
+    font-family: "Akira Expanded", sans-serif;
+    font-size: 1.5rem;
+    color: #fc43be;
+    line-height: 1.125;
+    margin-bottom: 36px;
+    margin-top: 30px;
+    padding-left: 610px;
+  }
+
+  ul {
+    font-family: libre franklin, sans-serif;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-left: 25px;
   }
 }
