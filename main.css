@@ -28,6 +28,7 @@
   nav.shown {
     border-top: 1px solid #000;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     flex: 1 1 100%;
     flex-flow: column;
