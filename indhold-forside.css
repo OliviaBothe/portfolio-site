@@ -16,9 +16,8 @@ h2 {
   font-family: "Akira Expanded", sans-serif;
   font-size: 1.45rem;
   color: #fc43be;
-  line-height: 1.125;
   margin-bottom: 9px;
-  padding: 55px;
+  padding-left: 55px;
 }
 
 p {
@@ -45,7 +44,7 @@ p {
     color: #fc43be;
     line-height: 1.125;
     margin-bottom: 20px;
-    margin-top: 9px;
+    margin-top: 30px;
     padding-left: 220px;
   }
 
